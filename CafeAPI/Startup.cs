@@ -32,7 +32,7 @@ namespace CafeAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<IMenuItemRepository, MenuItemRepository>();
-            services.AddDbContext<MenuItemContext>(o => o.UseInMemoryDatabase("Data source=MenuItems.json"));
+            services.AddDbContext<MenuItemContext>(o => o.UseInMemoryDatabase("Datasource=:memory:"));
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

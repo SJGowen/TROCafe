@@ -7,10 +7,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{6730E07B-69C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CafeAPI", "CafeAPI\CafeAPI.csproj", "{382FE0F2-287E-41D9-AF53-375FF7C01B5F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TROCafeTest", "TROCafeTest", "{2D5FA7DD-4BE4-40F8-AFE1-2DF435124271}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TROCafeTest", "TROCafeTest\TROCafeTest.csproj", "{E27424E8-28DF-43E7-879D-702DE1BA1F13}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,17 +17,12 @@ Global
 		{382FE0F2-287E-41D9-AF53-375FF7C01B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{382FE0F2-287E-41D9-AF53-375FF7C01B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{382FE0F2-287E-41D9-AF53-375FF7C01B5F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E27424E8-28DF-43E7-879D-702DE1BA1F13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E27424E8-28DF-43E7-879D-702DE1BA1F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E27424E8-28DF-43E7-879D-702DE1BA1F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E27424E8-28DF-43E7-879D-702DE1BA1F13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{382FE0F2-287E-41D9-AF53-375FF7C01B5F} = {6730E07B-69C5-4189-AA09-73B92B646126}
-		{E27424E8-28DF-43E7-879D-702DE1BA1F13} = {2D5FA7DD-4BE4-40F8-AFE1-2DF435124271}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5CEFDC47-1438-4966-89F1-90AE7C912A0F}
