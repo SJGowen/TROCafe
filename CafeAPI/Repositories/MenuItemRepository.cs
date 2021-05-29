@@ -1,4 +1,5 @@
-﻿using CafeAPI.Models;
+﻿using CafeAPI.Data;
+using CafeAPI.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Threading.Tasks;

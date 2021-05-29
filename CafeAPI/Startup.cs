@@ -1,4 +1,4 @@
-using CafeAPI.Models;
+using CafeAPI.Data;
 using CafeAPI.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;

@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace CafeAPI.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class MenuItemsController : ControllerBase
     {
         private IMenuItemRepository _menuItemRepository;
@@ -30,7 +30,7 @@ namespace CafeAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<MenuItem>>PostMenuItem([FromBody] MenuItem menuItem)
+        public async Task<ActionResult<MenuItem>> PostMenuItem([FromBody] MenuItem menuItem)
         {
             var newMenuItem = await _menuItemRepository.Create(menuItem);
             return CreatedAtAction(nameof(GetMenuItems), new { id = newMenuItem.Id }, newMenuItem);

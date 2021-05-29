@@ -3,14 +3,14 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CafeAPI.Data
 {
-    public class MenuItemContext : DbContext
+    public class OrderItemContext : DbContext
     {
-        public MenuItemContext(DbContextOptions<MenuItemContext> options)
+        public OrderItemContext(DbContextOptions<OrderItemContext> options)
             : base(options)
         {
             Database.EnsureCreated();
         }
 
-        public DbSet<MenuItem> MenuItems { get; set; }
+        public DbSet<OrderItem> OrderItems { get; set; }
     }
 }
