@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace CafeAPI.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/v1/[controller]")]
     public class OrderItemsController : ControllerBase
     {
         private readonly IOrderItemRepository _orderItemRepository;
@@ -21,6 +21,18 @@ namespace CafeAPI.Controllers
         public async Task<IEnumerable<OrderItem>> GetOrderItems()
         {
             return await _orderItemRepository.Get();
+        }
+
+        [HttpGet("Total/{orderId}")]
+        public async Task<decimal> GetTotalForOrder(int orderId)
+        {
+            return await _orderItemRepository.GetTotal(orderId);
+        }
+
+        [HttpGet("Order/{orderId}")]
+        public async Task<IEnumerable<OrderItem>> GetOrderItemsForOrder(int orderId)
+        {
+            return await _orderItemRepository.GetOrder(orderId);
         }
 
         [HttpGet("{id}")]

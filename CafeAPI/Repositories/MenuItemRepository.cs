@@ -44,5 +44,16 @@ namespace CafeAPI.Repositories
             _context.Entry(menuItem).State = EntityState.Modified;
             await _context.SaveChangesAsync();
         }
+
+        // This I want called from OrderItemRepository
+        //public decimal MenuItemSKUCost(string sku) 
+        //{
+        //    var cost = 0.0M;
+        //    foreach (var item in _context.MenuItems)
+        //    {
+        //        if (item.SKU == sku) cost = item.Cost;
+        //    }
+        //    return cost;
+        //}
     }
 }

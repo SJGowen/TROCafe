@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace CafeAPI.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/v1/[controller]")]
     public class MenuItemsController : ControllerBase
     {
         private IMenuItemRepository _menuItemRepository;

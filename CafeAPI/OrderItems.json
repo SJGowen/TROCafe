@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "orderId": 1,
+    "quantity": 1,
+    "sku": "COFFEE"
+  },
+  {
+    "id": 2,
+    "orderId": 1,
+    "quantity": 1,
+    "sku": "SUGAR"
+  },
+  {
+    "id": 3,
+    "orderId": 2,
+    "quantity": 1,
+    "sku": "TEA"
+  },
+  {
+    "id": 4,
+    "orderId": 2,
+    "quantity": 1,
+    "sku": "SUGAR"
+  },
+  {
+    "id": 5,
+    "orderId": 3,
+    "quantity": 1,
+    "sku": "TEA"
+  },
+  {
+    "id": 6,
+    "orderId": 3,
+    "quantity": 2,
+    "sku": "SUGAR"
+  },
+  {
+    "id": 7,
+    "orderId": 4,
+    "quantity": 1,
+    "sku": "TEA"
+  },
+  {
+    "id": 8,
+    "orderId": 4,
+    "quantity": 2,
+    "sku": "SUGAR"
+  },
+  {
+    "id": 9,
+    "orderId": 4,
+    "quantity": 1,
+    "sku": "DISC10"
+  },
+  {
+    "id": 10,
+    "orderId": 5,
+    "quantity": 1,
+    "sku": "TEA"
+  },
+  {
+    "id": 11,
+    "orderId": 5,
+    "quantity": 1,
+    "sku": "MILK"
+  },
+  {
+    "id": 12,
+    "orderId": 5,
+    "quantity": 2,
+    "sku": "SUGAR"
+  },
+  {
+    "id": 13,
+    "orderId": 6,
+    "quantity": 1,
+    "sku": "TEA"
+  },
+  {
+    "id": 14,
+    "orderId": 6,
+    "quantity": 1,
+    "sku": "MILK"
+  },
+  {
+    "id": 15,
+    "orderId": 6,
+    "quantity": 2,
+    "sku": "SUGAR"
+  },
+  {
+    "id": 16,
+    "orderId": 6,
+    "quantity": 1,
+    "sku": "DISC20"
+  },
+  {
+    "id": 17,
+    "orderId": 7,
+    "quantity": 1,
+    "sku": "HOTCHOC"
+  },
+  {
+    "id": 18,
+    "orderId": 7,
+    "quantity": 1,
+    "sku": "MALLOWS"
+  },
+  {
+    "id": 19,
+    "orderId": 8,
+    "quantity": 1,
+    "sku": "HOTCHOC"
+  },
+  {
+    "id": 20,
+    "orderId": 8,
+    "quantity": 1,
+    "sku": "MALLOWS"
+  },
+  {
+    "id": 21,
+    "orderId": 8,
+    "quantity": 1,
+    "sku": "DISC10"
+  },
+  {
+    "id": 22,
+    "orderId": 8,
+    "quantity": 1,
+    "sku": "DISC20"
+  },
+  {
+    "id": 23,
+    "orderId": 9,
+    "quantity": 10,
+    "sku": "COFFEE"
+  },
+  {
+    "id": 24,
+    "orderId": 9,
+    "quantity": 5,
+    "sku": "TEA"
+  },
+  {
+    "id": 25,
+    "orderId": 9,
+    "quantity": 20,
+    "sku": "SUGAR"
+  }
+]

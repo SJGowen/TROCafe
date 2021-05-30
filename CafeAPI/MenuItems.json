@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "sku": "COFFEE",
+    "description": "Coffee",
+    "cost": 1.5
+  },
+  {
+    "id": 2,
+    "sku": "TEA",
+    "description": "Tea",
+    "cost": 1.2
+  },
+  {
+    "id": 3,
+    "sku": "HOTCHOC",
+    "description": "Hot chocolate",
+    "cost": 2
+  },
+  {
+    "id": 4,
+    "sku": "SUGAR",
+    "description": "Sugar",
+    "cost": 0.1
+  },
+  {
+    "id": 5,
+    "sku": "MILK",
+    "description": "Milk",
+    "cost": 0.3
+  },
+  {
+    "id": 6,
+    "sku": "MALLOWS",
+    "description": "Marshmallows",
+    "cost": 0.6
+  }
+]

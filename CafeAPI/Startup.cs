@@ -13,7 +13,7 @@ namespace CafeAPI
     public class Startup
     {
         private readonly IConfiguration _config;
-        
+
         public Startup(IConfiguration config)
         {
             _config = config;
@@ -25,7 +25,9 @@ namespace CafeAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<IMenuItemRepository, MenuItemRepository>();
-            services.AddDbContext<MenuItemContext>(o => o.UseInMemoryDatabase("CafeDb"));
+            services.AddDbContext<MenuItemContext>(o => o.UseInMemoryDatabase("CafeMenuDb"));
+            services.AddScoped<IOrderItemRepository, OrderItemRepository>();
+            services.AddDbContext<OrderItemContext>(o => o.UseInMemoryDatabase("CafeOrderDb"));
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
