@@ -65,7 +65,7 @@ namespace CafeAPI.Repositories
                 }
                 else total += item.Quantity * item.Cost;
             }
-            if (discount > 1.0M) discount = 1.0M; // ensure that we never pay the client for drinking
+            if (discount > 1.0M) discount = 1.0M; // ensure that we never pay the customer for drinking
             return total - (total * discount);
         }
     }
