@@ -9,6 +9,8 @@ namespace CafeAPI.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
+        // Probability to replace the integer OrderId with a GUID, 
+        // that way no chance of getting duplicate OrderID's
         public int OrderId { get; set; }
 
         public int Quantity { get; set; }
@@ -16,8 +18,5 @@ namespace CafeAPI.Models
         [Required]
         [StringLength(20, MinimumLength = 3)]
         public string SKU { get; set; }
-
-        // Don't want to do this but I am having problems joining to MenuItem.Cost
-        public decimal Cost { get; set; }
     }
 }
